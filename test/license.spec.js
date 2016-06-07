@@ -9,7 +9,7 @@ describe('license.js', function() {
     }));
 
     function request() {
-        return rest.calls[0].args[0];
+        return rest.calls.first().args[0];
     }
 
     describe('LicenseController', function() {

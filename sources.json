@@ -1,0 +1,5 @@
+{
+  "default": {
+    "bin.license":"bower_components/binarta.license.angular/src/license.js"
+  }
+}
